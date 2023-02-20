@@ -7,7 +7,7 @@ const FilterSection = () => {
   const [isSearched, setIsSearched] = useState(false);
   const [state, setState] = useState('Arizona');
   const [city, setCity] = useState('Bisbee');
-  const [price, setPrice] = useState(2000);
+  const [price, setPrice] = useState('00$ - 5000$');
   const [type, setType] = useState('Public Property');
   const [filteredData, setFilteredData] = useState(data);
 
@@ -15,21 +15,23 @@ const FilterSection = () => {
     let lowPrice;
     let highPrice;
 
+    console.log(price);
     if (price === '00$ - 5000$') {
       lowPrice = 0;
       highPrice = 5000;
     } else {
-      lowPrice = 5001;
-      highPrice = 10000;
+      lowPrice = 5000;
+      highPrice = 12000;
     }
     const newdata = data.filter(
       (d) =>
         d.state === state &&
-        // d.price > lowPrice &&
-        // d.price < highPrice &&
+        d.price > lowPrice &&
         d.type === type &&
         d.city === city
     );
+
+    console.log(newdata, 'new data');
 
     setFilteredData(newdata);
   };
@@ -89,7 +91,7 @@ const FilterSection = () => {
             className="select select-bordered bg-white text-[#05061a]"
           >
             <option>00$ - 5000$</option>
-            <option>5001$ - 10000$</option>
+            {/* <option>5001$ - 10000$</option> */}
           </select>
         </div>{' '}
         <div className="form-control w-full bg-white">
