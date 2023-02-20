@@ -5,70 +5,223 @@
       "city": "Bisbee",
       "state": "Arizona",
       "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-      "type": "Immovable Property",
+      "type": "Public Property",
       "price": 2000
     },
     {
       "id": 2,
-      "Name": "Sun rise Harbor",
-      "city": "Casa Grande",
+      "Name": "Palm Harbor-05",
+      "city": "Bisbee",
       "state": "Arizona",
-      "img": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-      "type": "Movable Property",
-      "price": 6000
+      "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "type": "Public Property",
+      "price": 2000
     },
     {
       "id": 3,
-      "Name": "Palm Harbor",
+      "Name": "Palm Harbor-03",
+      "city": "Bisbee",
+      "state": "Arizona",
+      "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "type": "Public Property",
+      "price": 2000
+    },
+    {
+      "id": 4,
+      "Name": "Palm Harbor-96",
+      "city": "Bisbee",
+      "state": "Arizona",
+      "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "type": "Public Property",
+      "price": 2000
+    },
+    {
+      "id": 5,
+      "Name": "Palm Harbor-01",
+      "city": "Bisbee",
+      "state": "Arizona",
+      "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "type": "Incorporeal Property",
+      "price": 6000
+    },
+    {
+      "id": 6,
+      "Name": "Palm Harbor-07",
+      "city": "Bisbee",
+      "state": "Arizona",
+      "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "type": "Incorporeal Property",
+      "price": 6000
+    },
+    {
+      "id": 7,
+      "Name": "Palm Harbor-02",
+      "city": "Bisbee",
+      "state": "Arizona",
+      "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "type": "Incorporeal Property",
+      "price": 6000
+    },
+    {
+      "id": 8,
+      "Name": "Palm Harbor-087",
+      "city": "Bisbee",
+      "state": "Arizona",
+      "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "type": "Incorporeal Property",
+      "price": 6000
+    },
+    {
+      "id": 9,
+      "Name": "Sun rise Harbor*85",
+      "city": "Casa Grande",
+      "state": "Arizona",
+      "img": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "type": "Incorporeal Property",
+      "price": 6000
+    },
+    {
+      "id": 10,
+      "Name": "Sun rise Harbor-05",
+      "city": "Casa Grande",
+      "state": "Arizona",
+      "img": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "type": "Incorporeal Property",
+      "price": 6000
+    },
+    {
+      "id": 11,
+      "Name": "Sun rise Harbor-01",
+      "city": "Casa Grande",
+      "state": "Arizona",
+      "img": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "type": "Public Property",
+      "price": 4000
+    },
+    {
+      "id": 12,
+      "Name": "Palm Harbor-03",
       "city": "Douglas",
       "state": "Arizona",
       "img": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "type": "Public Property",
-      "price": 11500
+      "price": 1000
     },
     {
-      "id": 4,
-      "Name": "Palm Harbor",
+      "id": 13,
+      "Name": "Palm Harbor-03",
+      "city": "Douglas",
+      "state": "Arizona",
+      "img": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "type": "Public Property",
+      "price": 1000
+    },
+    {
+      "id": 14,
+      "Name": "Palm Harbor-03",
+      "city": "Douglas",
+      "state": "Arizona",
+      "img": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "type": "Public Property",
+      "price": 1000
+    },
+    {
+      "id": 15,
+      "Name": "Palm Harbor-04",
+      "city": "Douglas",
+      "state": "Arizona",
+      "img": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "type": "Incorporeal Property",
+      "price": 7500
+    },
+    {
+      "id": 16,
+      "Name": "Palm Harbor-05",
       "city": "Florence",
       "state": "Arizona",
       "img": "https://images.unsplash.com/photo-1600585152915-d208bec867a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=852&q=80",
       "type": "Incorporeal Property",
-      "price": 15000
+      "price": 2000
     },
     {
-      "id": 5,
-      "Name": "Palm Harbor",
+      "id": 17,
+      "Name": "Palm Harbor-05",
+      "city": "Florence",
+      "state": "Arizona",
+      "img": "https://images.unsplash.com/photo-1600585152915-d208bec867a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=852&q=80",
+      "type": "Public Property",
+      "price": 6000
+    },
+    {
+      "id": 18,
+      "Name": "Palm Harbor-06",
       "city": "Alameda",
       "state": "California",
       "img": "https://images.unsplash.com/photo-1602941525421-8f8b81d3edbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      "type": "Immovable Property",
+      "type": "Public Property",
       "price": 3000
     },
     {
-      "id": 6,
-      "Name": "Sun rise Harbor",
+      "id": 19,
+      "Name": "Palm Harbor-07",
+      "city": "Alameda",
+      "state": "California",
+      "img": "https://images.unsplash.com/photo-1602941525421-8f8b81d3edbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "type": "Incorporeal Property",
+      "price": 7000
+    },
+    {
+      "id": 20,
+      "Name": "Sun rise Harbor-002",
       "city": "Anaheim",
       "state": "California",
       "img": "https://images.unsplash.com/photo-1600585153490-76fb20a32601?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      "type": "Movable Property",
+      "type": "Incorporeal Property",
       "price": 6500
     },
     {
-      "id": 7,
-      "Name": "Palm Harbor",
+      "id": 21,
+      "Name": "Sun rise Harbor-002",
+      "city": "Anaheim",
+      "state": "California",
+      "img": "https://images.unsplash.com/photo-1600585153490-76fb20a32601?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "type": "Public Property",
+      "price": 700
+    },
+    {
+      "id": 22,
+      "Name": "Palm Harbor-007",
       "city": "Belmont",
       "state": "California",
       "img": "https://images.unsplash.com/photo-1608429835892-30be51ea4d6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
       "type": "Public Property",
-      "price": 11000
+      "price": 1000
     },
     {
-      "id": 8,
-      "Name": "Palm Harbor",
+      "id": 23,
+      "Name": "Palm Harbor-008",
+      "city": "Belmont",
+      "state": "California",
+      "img": "https://images.unsplash.com/photo-1608429835892-30be51ea4d6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80",
+      "type": "Incorporeal Property",
+      "price": 8000
+    },
+    {
+      "id": 24,
+      "Name": "Palm Harbor-005",
       "city": "Barstow",
       "state": "California",
       "img": "https://images.unsplash.com/photo-1555636222-cae831e670b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njd8fHByb3BlcnR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
       "type": "Incorporeal Property",
-      "price": 14500
+      "price": 500
+    },
+    {
+      "id": 25,
+      "Name": "Palm Harbor-005",
+      "city": "Barstow",
+      "state": "California",
+      "img": "https://images.unsplash.com/photo-1555636222-cae831e670b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Njd8fHByb3BlcnR5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "type": "Public Property",
+      "price": 9500
     }
   ]
