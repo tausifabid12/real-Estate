@@ -18,45 +18,33 @@ const FilterSection = () => {
     if (price === '00$ - 5000$') {
       lowPrice = 0;
       highPrice = 5000;
-    } else if (price === '5001$ - 10000$') {
-      lowPrice = 0;
-      highPrice = 5000;
-    } else if (price === '10001$ - 12000$') {
-      lowPrice = 0;
-      highPrice = 5000;
     } else {
-      lowPrice = 12001;
-      highPrice = 15000;
+      lowPrice = 5001;
+      highPrice = 10000;
     }
     const newdata = data.filter(
-      (d) => d.state === state && d.type === type && d.city === city
+      (d) =>
+        d.state === state &&
+        // d.price > lowPrice &&
+        // d.price < highPrice &&
+        d.type === type &&
+        d.city === city
     );
-
-    console.log(newdata, 'thjoidj');
 
     setFilteredData(newdata);
   };
 
   useEffect(() => {
     handelFilter();
-    // if (!isSearched) {
-    //   setFilteredData(data);
-    // } else {
-    //   handelFilter();
-    // }
   }, [isSearched]);
 
   const filterDuplicates = (array) => {
     return array.filter((a, b) => array.indexOf(a) === b);
   };
 
-  console.log(filteredData, 'oijsdklfjals');
   return (
     <section className="space-y-14">
-      <div
-        // onSubmit={handleSubmit}
-        className="grid grid-cols-5 rounded-xl bg-white shadow-md p-7 gap-6"
-      >
+      <div className="grid grid-cols-5 rounded-xl bg-white shadow-md p-7 gap-6">
         <div className="form-control w-full bg-white">
           <label className="label">
             <span className="label-text">State</span>
@@ -82,13 +70,13 @@ const FilterSection = () => {
             onChange={(e) => setCity(e.target.value)}
             className="select select-bordered bg-white text-[#05061a]"
           >
-            {filterDuplicates(data.filter((a) => a.state === state)).map(
-              (p) => (
-                <option key={p.id} className="text-[#05061a]">
-                  {p.city}
-                </option>
-              )
-            )}
+            {filterDuplicates(
+              data.filter((a) => a.state === state).map((c) => c.city)
+            ).map((city, i) => (
+              <option key={i + 1} className="text-[#05061a]">
+                {city}
+              </option>
+            ))}
           </select>
         </div>
         <div className="form-control w-full bg-white">

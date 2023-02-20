@@ -13,7 +13,7 @@ const ProductCard = ({ product }) => {
           <p>
             City: {city} | State: {state}
           </p>
-          <p>type: {type}$</p>
+          <p>Type: {type}$</p>
           <p>Price: {price}$</p>
         </div>
       </div>
